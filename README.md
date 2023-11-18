@@ -16,20 +16,8 @@ Espaço para Jupyter Notebooks ou outras análises interativas.
 ### Models
 Pasta para modelos treinados de machine learning.
 
-
-
 ### Reports
 Relatórios ou resultados de análises.
 
-
-## Como Usar
-Instruções básicas de como usar o projeto, incluindo configuração de ambiente, execução de scripts, etc.
-
 ### References
 Documentação, artigos, e outras referências relevantes.
-
-## Contribuições
-Diretrizes para contribuir para o projeto.
-
-## Licença
-Informações de licenciamento.
