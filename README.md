@@ -1,23 +1,36 @@
-# practical_statistics_scripts
+# Practical Statistics Scripts
 
-## Projeto
-Descrição do projeto practical_statistics_scripts. 
-Este projeto foi gerado usando um template personalizado para Data Science, garantindo uma estrutura de projeto consistente e eficiente.
+Scripts e notebooks para estudos práticos de estatística.
 
-## Estrutura do Projeto
-Abaixo está a estrutura do projeto e descrições breves para cada diretório:
+## Conteúdo
 
-### Data
-Diretório para armazenar dados brutos e processados.
+Atualmente, o repositório contém um notebook sobre bootstrap:
 
-### Notebooks
-Espaço para Jupyter Notebooks ou outras análises interativas.
+- geração de uma amostra normal;
+- reamostragem com reposição;
+- cálculo da média das amostras reamostradas;
+- intervalo de confiança de 95%;
+- visualização da distribuição das estatísticas.
 
-### Models
-Pasta para modelos treinados de machine learning.
+## Estrutura
 
-### Reports
-Relatórios ou resultados de análises.
+```text
+.
+└── notebooks/
+    └── 01_bootstrapped_calculated_stat.ipynb
+```
 
-### References
-Documentação, artigos, e outras referências relevantes.
+## Como executar
+
+1. Instale Python e Jupyter Notebook.
+2. Instale as dependências:
+
+   ```bash
+   pip install numpy matplotlib seaborn
+   ```
+
+3. Abra o notebook:
+
+   ```bash
+   jupyter notebook notebooks/01_bootstrapped_calculated_stat.ipynb
+   ```
